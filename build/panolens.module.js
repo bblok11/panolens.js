@@ -8344,7 +8344,7 @@ class Viewer extends THREE.EventDispatcher {
         vector.project( this.camera );
   
         vector.x = ( vector.x * widthHalf ) + widthHalf;
-        vector.y = - ( vector.y * heightHalf ) + heightHalf;
+        vector.y = - ( vector.y * heightHalf ) + heightHalf + this.container.getBoundingClientRect().top;
         vector.z = 0;
   
         return vector;
