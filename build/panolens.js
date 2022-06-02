@@ -24,7 +24,7 @@
 
 	var THREE__namespace = /*#__PURE__*/_interopNamespace(THREE);
 
-	const version="0.0.9";const dependencies={three:"^0.136"};
+	const version="0.0.10";const dependencies={three:"^0.136"};
 
 	/**
 	 * REVISION
