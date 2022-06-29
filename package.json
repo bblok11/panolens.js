@@ -1,10 +1,8 @@
 {
-  "name": "@enra-gmbh/panolens",
+  "name": "@bblok11/panolens",
   "version": "0.0.10",
   "description": "Javascript panorama viewer",
-  "main": "build/panolens.js",
-  "jsnext:main": "build/panolens.module.js",
-  "module": "build/panolens.module.js",
+  "main": "src/panolens.js",
   "files": [
     "build/panolens.js",
     "build/panolens.min.js",
@@ -15,7 +13,6 @@
     "README.md",
     "src"
   ],
-  "types": "build/Panolens.d.ts",
   "directories": {
     "doc": "docs",
     "test": "test"
@@ -129,7 +126,7 @@
     "xmlhttprequest": "^1.8.0"
   },
   "dependencies": {
-    "three": "^0.136"
+    "three": "^0.142"
   },
   "jspm": {
     "files": [
